@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 // УВАГА: Тут має бути публічне посилання на ваш локальний C# бекенд!
 // Для тестування запустіть у терміналі: ngrok http 5255 (ваш порт бекенду)
 // і вставте сюди https адресу від ngrok.
-const API_BASE_URL = 'http://localhost:5255';
+const API_BASE_URL = 'https://davidyuk-todo.duckdns.org';
 
 interface Task {
   id: string;
